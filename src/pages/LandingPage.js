@@ -7,7 +7,7 @@ const LandingPage = () => {
         <div>
             <img src={Logo} alt='Logo.png' width="50%"></img>
             <div>
-                <span>teks penjelasan web-app-euy</span>
+                <span>teks penjelasan web-app</span>
                 <div>
                     <Link to="login">Login</Link>
                     <br/>
