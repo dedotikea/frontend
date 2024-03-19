@@ -7,7 +7,7 @@ const LandingPage = () => {
         <div>
             <img src={Logo} alt='Logo.png' width="50%"></img>
             <div>
-                <span>teks penjelasan web-app</span>
+                <span>teks penjelasan web-app man i swear if this is still not deployable...</span>
                 <div>
                     <Link to="login">Login</Link>
                     <br/>
