@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../assets/images/logo-no-background.png'
 import { Link } from 'react-router-dom'
+import BackHandIcon from '@mui/icons-material/BackHand';
 
 const LandingPage = () => {
     return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
                     <Link to="login">Login</Link>
                     <br/>
                     <Link to="create-account">Create Account</Link>
+                    <BackHandIcon></BackHandIcon>
                 </div>
             </div>
         </div>
