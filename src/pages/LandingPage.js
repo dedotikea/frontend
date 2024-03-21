@@ -1,19 +1,23 @@
 import React from 'react'
 import Logo from '../assets/images/logo-no-background.png'
 import { Link } from 'react-router-dom'
-import BackHandIcon from '@mui/icons-material/BackHand';
+import "../styles/landing-page-style.css"
 
 const LandingPage = () => {
     return (
-        <div>
-            <img src={Logo} alt='Logo.png' width="50%"></img>
-            <div>
-                <span>teks penjelasan web-app man i swear if this is still not deployable...</span>
-                <div>
+        <div className='LandingPage'>
+            <div className='LogoImage'>
+                <img src={Logo} alt='Logo.png'></img>
+            </div>
+            <div className='Information'>
+                <h1>Welcome!</h1>
+                <span className='span-1'>Selamat datang di web-app Skray</span>
+                <br />
+                <br />
+                <span className='span-2'>Silahkan login untuk mengakses web-app, atau create account untuk membuat akun baru</span>
+                <div className='LinkContainer'>
                     <Link to="login">Login</Link>
-                    <br/>
-                    <Link to="create-account">Create Account</Link>
-                    <BackHandIcon></BackHandIcon>
+                    <Link to="create-account">Create new account</Link>
                 </div>
             </div>
         </div>

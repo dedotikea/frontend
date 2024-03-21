@@ -1,0 +1,64 @@
+.LandingPage {
+    display: flex;
+    align-items: center;
+}
+
+.LogoImage {
+    height: 100vh;
+    /* background-color: #FEF8EC; */
+}
+
+.Information {
+    background-color: #FEF8EC;
+    width: 50vw;
+    height: 100vh;
+}
+
+
+.span-1 {
+    margin-left: 15px;
+    font-size: 3vw;
+}
+
+.span-2 {
+    margin-left: 15px;
+    font-size: 1vw;
+}
+
+.LinkContainer {
+    margin-left: 15px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2vw;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+a:active {
+    text-decoration: none;
+    color: teal;
+}
+
+img {
+    filter: contrast(500%);
+    margin-top: 25vh;
+    width: 50vw;
+}
+
+h1 {
+    margin-left: 15px;
+    font-size: 8vw;
+}
+
+@media only screen and (max-width: 428px) and (max-height: 926) {
+    /* … */
+}
