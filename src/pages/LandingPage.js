@@ -11,10 +11,10 @@ const LandingPage = () => {
             </div>
             <div className='Information'>
                 <h1>Welcome!</h1>
-                <span className='span-1'>Selamat datang di web-app Skray</span>
+                <p className='p-1'>Selamat datang di web-app Skray</p>
                 <br />
+                <p className='p-2'>Silahkan login untuk mengakses web-app, atau create account untuk membuat akun baru</p>
                 <br />
-                <span className='span-2'>Silahkan login untuk mengakses web-app, atau create account untuk membuat akun baru</span>
                 <div className='LinkContainer'>
                     <Link to="login">Login</Link>
                     <Link to="create-account">Create new account</Link>
