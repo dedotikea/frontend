@@ -1,0 +1,13 @@
+.DesktopCreateAccountContainer {
+    background: #4A596D;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.MobileCreateAccountContainer {
+    background: #4A596D;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

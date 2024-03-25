@@ -1,0 +1,13 @@
+.DesktopLoginContainer {
+    background: #4A596D;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.MobileLoginContainer {
+    background: #4A596D;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

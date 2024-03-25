@@ -1,8 +1,22 @@
 import React from 'react'
+import { useMediaQuery } from '@mui/material'
+import DesktopCreateAccount from '../components/DesktopCreateAccount'
+import MobileCreateAccount from '../components/MobileCreateAccount'
 
 const CreateAccount = () => {
+    const isMobile = useMediaQuery('(max-width:926px)')
     return (
-        <div>CreateAccount</div>
+        <>
+            {/* Desktop components */}
+            {!isMobile &&
+                <DesktopCreateAccount />
+            }
+
+            {/* Mobile components*/}
+            {isMobile &&
+                <MobileCreateAccount />
+            }
+        </>
     )
 }
 

@@ -7,7 +7,7 @@ const LandingPage = () => {
     return (
         <div className='LandingPage'>
             <div className='LogoImage'>
-                <img src={Logo} alt='Logo.png'></img>
+                <img src={Logo} alt='Logo.png' className='LandingPageImage'></img>
             </div>
             <div className='Information'>
                 <h1>Welcome!</h1>
