@@ -75,9 +75,11 @@ const MobileLogin = () => {
                     marginLeft: '20px',
                     marginTop: '20px'
                 }}>
-                    <Box component="img" src={logoWebApp} sx={{
-                        width: '100px'
-                    }}></Box>
+                    <Link to="../">
+                        <Box component="img" src={logoWebApp} sx={{
+                            width: '100px'
+                        }}></Box>
+                    </Link>
                     <h2>Login</h2>
                     <p>Silahkan masukkan alamat email dan password</p>
                 </Box>
